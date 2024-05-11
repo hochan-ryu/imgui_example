@@ -8,7 +8,7 @@
 Follow these steps to install and set up vcpkg:
 1. Clone the vcpkg repository:
     ```bash
-    git clone https://github.com/microsoft/vcpkg.git
+    git clone --recurse-submodules https://github.com/microsoft/vcpkg.git
     ```
 2. Build and prepare the vcpkg tool:
     ```bash
